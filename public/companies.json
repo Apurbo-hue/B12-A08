@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "title": "Google Search",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "Search the world’s information instantly.",
+    "size": 45,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 650000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Connect with friends and communities.",
+    "size": 60,
+    "reviews": 980000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 290000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 3,
+    "description": "Simple and secure messaging.",
+    "size": 38,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 420000 },
+      { "name": "5 star", "count": 895000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Watch and share videos worldwide.",
+    "size": 70,
+    "reviews": 1300000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 510000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 5,
+    "description": "Music and podcast streaming.",
+    "size": 55,
+    "reviews": 820000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 95000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 410000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Inc.",
+    "id": 6,
+    "description": "Online shopping with fast delivery.",
+    "size": 85,
+    "reviews": 760000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 7,
+    "description": "Movies and TV shows streaming.",
+    "size": 95,
+    "reviews": 690000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 255000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 8,
+    "description": "Meetings, chat, and collaboration.",
+    "size": 75,
+    "reviews": 540000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 65000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 9,
+    "description": "Real-time social updates and news.",
+    "size": 42,
+    "reviews": 610000,
+    "ratingAvg": 3.9,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 110000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 10,
+    "description": "Professional networking platform.",
+    "size": 50,
+    "reviews": 480000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 155000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 11,
+    "description": "Cloud storage and file sharing.",
+    "size": 48,
+    "reviews": 350000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 132000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Acrobat_DC_logo_2020.svg",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "id": 12,
+    "description": "PDF viewing and editing tool.",
+    "size": 65,
+    "reviews": 420000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 55000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 85000 }
+    ]
+  }
+]
