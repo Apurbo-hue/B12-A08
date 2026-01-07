@@ -8,7 +8,7 @@ import facebook from '../../images/facebook.png'
 const Footer = () => {
     return (
         <div>
-            <footer className='bg-[#001931] px-4 rounded-xl'>
+            <footer className='bg-[#001931] px-4 rounded-lg'>
                 <div className='flex justify-between p-4'>
                                     <Link to="/" className="btn btn-ghost text-xl text-[#6d36e6]"><img src={logo} alt="" />HERO.IO</Link>
                 <div className='flex items-center gap-2'>
@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href="https://facebook.com/" target='blank'><img src={facebook} alt="" /></a>
                 </div>
                 </div>
-                <footer className="footer sm:footer-horizontal footer-center text-base-content p-4 border-t">
+                <footer className="footer sm:footer-horizontal footer-center text-base-content p-6 border-t">
                     <aside >
                         <p>Copyright © {new Date().getFullYear()} - All right reserved by HERO.IO</p>
                     </aside>
