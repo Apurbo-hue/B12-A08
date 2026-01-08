@@ -4,7 +4,7 @@
     "title": "Google Search",
     "companyName": "Google LLC",
     "id": 1,
-    "description": "Search the world’s information instantly.",
+    "description": "Search engine for finding information worldwide.",
     "size": 45,
     "reviews": 1200000,
     "ratingAvg": 4.7,
@@ -18,29 +18,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 2,
-    "description": "Connect with friends and communities.",
-    "size": 60,
-    "reviews": 980000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 280000 },
-      { "name": "5 star", "count": 290000 }
-    ]
-  },
-  {
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "WhatsApp Messenger",
+    "title": "WhatsApp",
     "companyName": "WhatsApp LLC",
-    "id": 3,
-    "description": "Simple and secure messaging.",
+    "id": 2,
+    "description": "Secure messaging and calling app.",
     "size": 38,
     "reviews": 1500000,
     "ratingAvg": 4.6,
@@ -54,11 +36,11 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/YouTube_social_white_square_%282024%29.svg/960px-YouTube_social_white_square_%282024%29.svg.png",
     "title": "YouTube",
     "companyName": "Google LLC",
-    "id": 4,
-    "description": "Watch and share videos worldwide.",
+    "id": 3,
+    "description": "Video sharing and streaming platform.",
     "size": 70,
     "reviews": 1300000,
     "ratingAvg": 4.4,
@@ -75,12 +57,12 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
     "title": "Spotify",
     "companyName": "Spotify AB",
-    "id": 5,
-    "description": "Music and podcast streaming.",
+    "id": 4,
+    "description": "Music and podcast streaming app.",
     "size": 55,
     "reviews": 820000,
     "ratingAvg": 4.5,
-    "downloads": 1000000000,
+    "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 30000 },
       { "name": "2 star", "count": 25000 },
@@ -90,29 +72,29 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
-    "id": 10,
-    "description": "Professional networking platform.",
-    "size": 50,
-    "reviews": 480000,
-    "ratingAvg": 4.2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ZoPxHxiJ8nsrZTejjkVOIWcBlJt1D0KhLQ&s",
+    "title": "Amazon",
+    "companyName": "Amazon Inc.",
+    "id": 5,
+    "description": "Online shopping platform.",
+    "size": 85,
+    "reviews": 760000,
+    "ratingAvg": 4.3,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 35000 },
-      { "name": "3 star", "count": 90000 },
-      { "name": "4 star", "count": 160000 },
-      { "name": "5 star", "count": 155000 }
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 230000 }
     ]
   },
   {
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
     "title": "Netflix",
     "companyName": "Netflix Inc.",
-    "id": 7,
-    "description": "Movies and TV shows streaming.",
+    "id": 6,
+    "description": "Movie and TV streaming service.",
     "size": 95,
     "reviews": 690000,
     "ratingAvg": 4.4,
@@ -129,8 +111,8 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
     "title": "Microsoft Teams",
     "companyName": "Microsoft Corporation",
-    "id": 8,
-    "description": "Meetings, chat, and collaboration.",
+    "id": 7,
+    "description": "Team communication and meetings.",
     "size": 75,
     "reviews": 540000,
     "ratingAvg": 4.1,
@@ -144,21 +126,93 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
-    "title": "X",
-    "companyName": "X Corp.",
-    "id": 9,
-    "description": "Real-time social updates and news.",
-    "size": 42,
-    "reviews": 610000,
-    "ratingAvg": 3.9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 8,
+    "description": "Professional networking platform.",
+    "size": 50,
+    "reviews": 480000,
+    "ratingAvg": 4.2,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 110000 },
-      { "name": "3 star", "count": 160000 },
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 155000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 9,
+    "description": "Cloud file storage and sharing.",
+    "size": 48,
+    "reviews": 350000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
       { "name": "4 star", "count": 120000 },
-      { "name": "5 star", "count": 70000 }
+      { "name": "5 star", "count": 132000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 10,
+    "description": "Collaborative UI/UX design tool.",
+    "size": 60,
+    "reviews": 310000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 141000 }
+    ]
+  },
+  {
+    "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+    "title": "VS Code",
+    "companyName": "Microsoft",
+    "id": 11,
+    "description": "Source code editor for developers.",
+    "size": 90,
+    "reviews": 600000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 386000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 12,
+    "description": "Fast and secure cloud-based messaging app.",
+    "size": 42,
+    "reviews": 820000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 415000 }
     ]
   }
 ]

@@ -1,365 +1,614 @@
 [
-    {
-        "id": 1,
-        "title": "Google Search",
-        "companyName": "Google LLC",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        "description": "Search engine for finding information worldwide.",
-        "size": 45,
-        "reviews": 1200000,
-        "ratingAvg": 4.7,
-        "downloads": 5000000000
-    },
-    {
-        "id": 2,
-        "title": "WhatsApp",
-        "companyName": "WhatsApp LLC",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-        "description": "Secure messaging and calling app.",
-        "size": 38,
-        "reviews": 1500000,
-        "ratingAvg": 4.6,
-        "downloads": 5000000000
-    },
-    {
-        "id": 3,
-        "title": "YouTube",
-        "companyName": "Google LLC",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
-        "description": "Video sharing and streaming platform.",
-        "size": 70,
-        "reviews": 1300000,
-        "ratingAvg": 4.4,
-        "downloads": 10000000000
-    },
-    {
-        "id": 4,
-        "title": "Spotify",
-        "companyName": "Spotify AB",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-        "description": "Music and podcast streaming app.",
-        "size": 55,
-        "reviews": 820000,
-        "ratingAvg": 4.5,
-        "downloads": 1000000000
-    },
-    {
-        "id": 5,
-        "title": "Amazon",
-        "companyName": "Amazon Inc.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ZoPxHxiJ8nsrZTejjkVOIWcBlJt1D0KhLQ&s",
-        "description": "Online shopping platform.",
-        "size": 85,
-        "reviews": 760000,
-        "ratingAvg": 4.3,
-        "downloads": 1000000000
-    },
-    {
-        "id": 6,
-        "title": "Netflix",
-        "companyName": "Netflix Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-        "description": "Movie and TV streaming service.",
-        "size": 95,
-        "reviews": 690000,
-        "ratingAvg": 4.4,
-        "downloads": 1000000000
-    },
-    {
-        "id": 7,
-        "title": "Microsoft Teams",
-        "companyName": "Microsoft Corporation",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-        "description": "Team communication and meetings.",
-        "size": 75,
-        "reviews": 540000,
-        "ratingAvg": 4.1,
-        "downloads": 500000000
-    },
-    {
-        "id": 8,
-        "title": "LinkedIn",
-        "companyName": "LinkedIn Corporation",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-        "description": "Professional networking platform.",
-        "size": 50,
-        "reviews": 480000,
-        "ratingAvg": 4.2,
-        "downloads": 1000000000
-    },
-    {
-        "id": 9,
-        "title": "Dropbox",
-        "companyName": "Dropbox Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
-        "description": "Cloud file storage and sharing.",
-        "size": 48,
-        "reviews": 350000,
-        "ratingAvg": 4.3,
-        "downloads": 500000000
-    },
-    {
-        "id": 10,
-        "title": "Figma",
-        "companyName": "Figma Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-        "description": "Collaborative UI/UX design tool.",
-        "size": 60,
-        "reviews": 310000,
-        "ratingAvg": 4.6,
-        "downloads": 100000000
-    },
-    {
-        "id": 11,
-        "title": "VS Code",
-        "companyName": "Microsoft",
-        "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
-        "description": "Source code editor for developers.",
-        "size": 90,
-        "reviews": 600000,
-        "ratingAvg": 4.8,
-        "downloads": 500000000
-    },
-    {
-        "id": 12,
-        "title": "GitHub",
-        "companyName": "GitHub Inc.",
-        "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-        "description": "Code hosting and collaboration.",
-        "size": 75,
-        "reviews": 410000,
-        "ratingAvg": 4.7,
-        "downloads": 300000000
-    },
-    {
-        "id": 13,
-        "title": "Telegram",
-        "companyName": "Telegram FZ-LLC",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
-        "description": "Fast and secure cloud-based messaging app.",
-        "size": 42,
-        "reviews": 820000,
-        "ratingAvg": 4.5,
-        "downloads": 1000000000
-    },
-    {
-        "id": 14,
-        "title": "Instagram",
-        "companyName": "Meta Platforms Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
-        "description": "Photo and video sharing social network.",
-        "size": 58,
-        "reviews": 1100000,
-        "ratingAvg": 4.3,
-        "downloads": 5000000000
-    },
-    {
-        "id": 15,
-        "title": "Zoom",
-        "companyName": "Zoom Video Communications",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
-        "description": "Video conferencing and online meetings.",
-        "size": 65,
-        "reviews": 640000,
-        "ratingAvg": 4.2,
-        "downloads": 1000000000
-    },
-    {
-        "id": 16,
-        "title": "Slack",
-        "companyName": "Slack Technologies",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
-        "description": "Team messaging and collaboration.",
-        "size": 55,
-        "reviews": 310000,
-        "ratingAvg": 4.4,
-        "downloads": 500000000
-    },
-    {
-        "id": 17,
-        "title": "Discord",
-        "companyName": "Discord Inc.",
-        "image": "https://cdn-icons-png.flaticon.com/512/3670/3670157.png",
-        "description": "Chat, voice, and video for communities.",
-        "size": 50,
-        "reviews": 520000,
-        "ratingAvg": 4.6,
-        "downloads": 500000000
-    },
-    {
-        "id": 18,
-        "title": "Reddit",
-        "companyName": "Reddit Inc.",
-        "image": "https://cdn-icons-png.flaticon.com/512/2111/2111589.png",
-        "description": "Community-driven discussion platform.",
-        "size": 48,
-        "reviews": 430000,
-        "ratingAvg": 4.2,
-        "downloads": 500000000
-    },
-    {
-        "id": 19,
-        "title": "Pinterest",
-        "companyName": "Pinterest Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
-        "description": "Discover and save creative ideas.",
-        "size": 52,
-        "reviews": 390000,
-        "ratingAvg": 4.4,
-        "downloads": 1000000000
-    },
-    {
-        "id": 20,
-        "title": "PayPal",
-        "companyName": "PayPal Holdings Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
-        "description": "Online payments and money transfers.",
-        "size": 40,
-        "reviews": 610000,
-        "ratingAvg": 4.1,
-        "downloads": 1000000000
-    },
-    {
-        "id": 21,
-        "title": "Canva",
-        "companyName": "Canva Pty Ltd",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuoND1fyjy6ygvVogMLPcAQgykFmGy6vpfYQ&s",
-        "description": "Online graphic design platform.",
-        "size": 65,
-        "reviews": 470000,
-        "ratingAvg": 4.7,
-        "downloads": 500000000
-    },
-    {
-        "id": 22,
-        "title": "Duolingo",
-        "companyName": "Duolingo Inc.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9U09LH-7uGYGX95RxlzIwKSkT4e-3YiCLUA&s",
-        "description": "Learn languages interactively.",
-        "size": 35,
-        "reviews": 680000,
-        "ratingAvg": 4.8,
-        "downloads": 500000000
-    },
-    {
-        "id": 23,
-        "title": "Uber",
-        "companyName": "Uber Technologies Inc.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJIOGtHi6yLhWs9gI0Bz1T83KoUzuqCQ7IQ&s",
-        "description": "Ride-hailing and transportation service.",
-        "size": 70,
-        "reviews": 890000,
-        "ratingAvg": 4.3,
-        "downloads": 1000000000
-    },
-    {
-        "id": 24,
-        "title": "Airbnb",
-        "companyName": "Airbnb Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
-        "description": "Book homes and travel experiences.",
-        "size": 68,
-        "reviews": 540000,
-        "ratingAvg": 4.5,
-        "downloads": 500000000
-    },
-    {
-        "id": 25,
-        "title": "Firefox",
-        "companyName": "Mozilla Foundation",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png",
-        "description": "Fast and private web browser.",
-        "size": 55,
-        "reviews": 620000,
-        "ratingAvg": 4.6,
-        "downloads": 1000000000
-    },
-    {
-        "id": 26,
-        "title": "Brave",
-        "companyName": "Brave Software Inc.",
-        "image": "https://play-lh.googleusercontent.com/aP7LHNpjMJJxoR8jRPPdVPlISDNNkFBKKmdODDp0uRNlL3YTugEdNEcHJgKBeRV8eeuU",
-        "description": "Privacy-focused web browser.",
-        "size": 60,
-        "reviews": 340000,
-        "ratingAvg": 4.7,
-        "downloads": 100000000
-    },
-    {
-        "id": 27,
-        "title": "Stack Overflow",
-        "companyName": "Stack Overflow Inc.",
-        "image": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png",
-        "description": "Developer Q&A platform.",
-        "size": 45,
-        "reviews": 290000,
-        "ratingAvg": 4.6,
-        "downloads": 100000000
-    },
-    {
-        "id": 28,
-        "title": "Medium",
-        "companyName": "Medium Corporation",
-        "image": "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
-        "description": "Reading and writing platform.",
-        "size": 40,
-        "reviews": 210000,
-        "ratingAvg": 4.3,
-        "downloads": 100000000
-    },
-    {
-        "id": 29,
-        "title": "Coursera",
-        "companyName": "Coursera Inc.",
-        "image": "https://creatorwala.in/wp-content/uploads/2023/08/COURSERA-8.png",
-        "description": "Online learning platform.",
-        "size": 58,
-        "reviews": 320000,
-        "ratingAvg": 4.7,
-        "downloads": 100000000
-    },
-    {
-        "id": 30,
-        "title": "Udemy",
-        "companyName": "Udemy Inc.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Udemy_logo.svg",
-        "description": "Skill-based online courses.",
-        "size": 62,
-        "reviews": 410000,
-        "ratingAvg": 4.5,
-        "downloads": 500000000
-    },
-    {
-        "id": 31,
-        "title": "Khan Academy",
-        "companyName": "Khan Academy",
-        "image": "https://play-lh.googleusercontent.com/TpK0AcjPn5-XDKgSZ5jAob1H7MsQuJILOMR4M4QYkTt5CBPgTJVr7mysrKM6Ia8SrX8=w240-h480-rw",
-        "description": "Free educational platform for students worldwide.",
-        "size": 60,
-        "reviews": 4600000,
-        "ratingAvg": 4.8,
-        "downloads": 500000000
-    },
-    {
-        "id": 32,
-        "title": "YouTube Music",
-        "companyName": "Google",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/512px-Youtube_Music_icon.svg.png",
-        "description": "Music streaming service by YouTube.",
-        "size": 100,
-        "reviews": 6200000,
-        "ratingAvg": 4.4,
-        "downloads": 700000000
-    },
-    {
-        "id": 33,
-        "title": "Google Maps",
-        "companyName": "Google",
-        "image": "https://cdn-icons-png.flaticon.com/512/2991/2991231.png",
-        "description": "Navigation, maps, and real-time traffic updates.",
-        "size": 130,
-        "reviews": 15200000,
-        "ratingAvg": 4.7,
-        "downloads": 10000000000
-    }
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "title": "Google Search",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "Search engine for finding information worldwide.",
+    "size": 45,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 650000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
+    "id": 2,
+    "description": "Secure messaging and calling app.",
+    "size": 38,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 420000 },
+      { "name": "5 star", "count": 895000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/YouTube_social_white_square_%282024%29.svg/960px-YouTube_social_white_square_%282024%29.svg.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Video sharing and streaming platform.",
+    "size": 70,
+    "reviews": 1300000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 510000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "Music and podcast streaming app.",
+    "size": 55,
+    "reviews": 820000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 95000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 410000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ZoPxHxiJ8nsrZTejjkVOIWcBlJt1D0KhLQ&s",
+    "title": "Amazon",
+    "companyName": "Amazon Inc.",
+    "id": 5,
+    "description": "Online shopping platform.",
+    "size": 85,
+    "reviews": 760000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 6,
+    "description": "Movie and TV streaming service.",
+    "size": 95,
+    "reviews": 690000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 255000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 7,
+    "description": "Team communication and meetings.",
+    "size": 75,
+    "reviews": 540000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 65000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 8,
+    "description": "Professional networking platform.",
+    "size": 50,
+    "reviews": 480000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 155000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 9,
+    "description": "Cloud file storage and sharing.",
+    "size": 48,
+    "reviews": 350000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 132000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 10,
+    "description": "Collaborative UI/UX design tool.",
+    "size": 60,
+    "reviews": 310000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 141000 }
+    ]
+  },
+  {
+    "image": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+    "title": "VS Code",
+    "companyName": "Microsoft",
+    "id": 11,
+    "description": "Source code editor for developers.",
+    "size": 90,
+    "reviews": 600000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 386000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 12,
+    "description": "Fast and secure cloud-based messaging app.",
+    "size": 42,
+    "reviews": 820000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 415000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 13,
+    "description": "Photo and video sharing social network.",
+    "size": 58,
+    "reviews": 1100000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 140000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 340000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 14,
+    "description": "Video conferencing and online meetings.",
+    "size": 65,
+    "reviews": 640000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 170000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 15,
+    "description": "Team messaging and collaboration.",
+    "size": 55,
+    "reviews": 310000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 128000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3670/3670157.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 16,
+    "description": "Chat, voice, and video for communities.",
+    "size": 50,
+    "reviews": 520000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 242000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111589.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 17,
+    "description": "Community-driven discussion platform.",
+    "size": 48,
+    "reviews": 430000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 135000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 18,
+    "description": "Discover and save creative ideas.",
+    "size": 52,
+    "reviews": 390000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 145000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings Inc.",
+    "id": 19,
+    "description": "Online payments and money transfers.",
+    "size": 40,
+    "reviews": 610000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 170000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuoND1fyjy6ygvVogMLPcAQgykFmGy6vpfYQ&s",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 20,
+    "description": "Online graphic design platform.",
+    "size": 65,
+    "reviews": 470000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 262000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJIOGtHi6yLhWs9gI0Bz1T83KoUzuqCQ7IQ&s",
+    "title": "Uber",
+    "companyName": "Uber Technologies Inc.",
+    "id": 21,
+    "description": "Ride-hailing and transportation service.",
+    "size": 70,
+    "reviews": 890000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 240000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "id": 22,
+    "description": "Book homes and travel experiences.",
+    "size": 68,
+    "reviews": 540000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 210000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1200px-Firefox_logo%2C_2019.svg.png",
+    "title": "Firefox",
+    "companyName": "Mozilla Foundation",
+    "id": 23,
+    "description": "Fast and private web browser.",
+    "size": 55,
+    "reviews": 620000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 302000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/aP7LHNpjMJJxoR8jRPPdVPlISDNNkFBKKmdODDp0uRNlL3YTugEdNEcHJgKBeRV8eeuU",
+    "title": "Brave",
+    "companyName": "Brave Software Inc.",
+    "id": 24,
+    "description": "Privacy-focused web browser.",
+    "size": 60,
+    "reviews": 340000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 179000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "id": 25,
+    "description": "Platform for version control and collaborative software development.",
+    "size": 65,
+    "reviews": 4200000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968853.png",
+    "title": "GitLab",
+    "companyName": "GitLab Inc.",
+    "id": 26,
+    "description": "DevOps platform for managing code and CI/CD pipelines.",
+    "size": 70,
+    "reviews": 2100000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 720000 },
+      { "name": "5 star", "count": 1050000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png",
+    "title": "Stack Overflow",
+    "companyName": "Stack Overflow Inc.",
+    "id": 27,
+    "description": "Community-driven Q&A platform for developers.",
+    "size": 55,
+    "reviews": 3600000,
+    "ratingAvg": 4.6,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 110000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1150000 },
+      { "name": "5 star", "count": 2020000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
+    "title": "Medium",
+    "companyName": "Medium Corporation",
+    "id": 28,
+    "description": "Online publishing platform for articles and blogs.",
+    "size": 50,
+    "reviews": 2800000,
+    "ratingAvg": 4.4,
+    "downloads": 350000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9U09LH-7uGYGX95RxlzIwKSkT4e-3YiCLUA&s",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 29,
+    "description": "Language learning app with gamified lessons.",
+    "size": 95,
+    "reviews": 12500000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3800000 },
+      { "name": "5 star", "count": 7350000 }
+    ]
+  },
+  {
+    "image": "https://creatorwala.in/wp-content/uploads/2023/08/COURSERA-8.png",
+    "title": "Coursera",
+    "companyName": "Coursera Inc.",
+    "id": 30,
+    "description": "Online learning platform offering professional courses.",
+    "size": 85,
+    "reviews": 5400000,
+    "ratingAvg": 4.6,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 1750000 },
+      { "name": "5 star", "count": 2930000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Udemy_logo.svg",
+    "title": "Udemy",
+    "companyName": "Udemy Inc.",
+    "id": 31,
+    "description": "Marketplace for online courses and skill learning.",
+    "size": 90,
+    "reviews": 8800000,
+    "ratingAvg": 4.5,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 4880000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/TpK0AcjPn5-XDKgSZ5jAob1H7MsQuJILOMR4M4QYkTt5CBPgTJVr7mysrKM6Ia8SrX8=w240-h480-rw",
+    "title": "Khan Academy",
+    "companyName": "Khan Academy",
+    "id": 32,
+    "description": "Free educational platform for students worldwide.",
+    "size": 60,
+    "reviews": 4600000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 3170000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/512px-Youtube_Music_icon.svg.png",
+    "title": "YouTube Music",
+    "companyName": "Google",
+    "id": 33,
+    "description": "Music streaming service by YouTube.",
+    "size": 100,
+    "reviews": 6200000,
+    "ratingAvg": 4.4,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 260000 },
+      { "name": "3 star", "count": 620000 },
+      { "name": "4 star", "count": 1950000 },
+      { "name": "5 star", "count": 3190000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991231.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 34,
+    "description": "Navigation, maps, and real-time traffic updates.",
+    "size": 130,
+    "reviews": 15200000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4600000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  }
 ]

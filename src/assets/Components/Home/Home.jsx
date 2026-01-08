@@ -13,7 +13,7 @@ const Home = () => {
                 <h1 className='text-5xl font-bold  m-4'>Trending Apps</h1>
                 <p className='text-xl text-[#627382] m-4'>Explore All Trending Apps on the Market developed by us</p>
             </div>
-            <div className='py-4 grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 place-items-center gap-4'>
+            <div className='py-4 grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-4 place-items-center gap-4'>
                 {data.map((apps) => <AppsCard key={apps.id} apps={apps}></AppsCard>)}
             </div>
 

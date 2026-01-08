@@ -13,9 +13,9 @@ const Banner = () => {
                 <div>
                     <div className='flex  justify-center items-center my-4'>
 
-                        <a className='flex flex-row items-center shadow gap-2 border px-4 py-2 mb-4 mx-2 rounded-sm' href="https://play.google.com/" target='blank'> <img src={playStore} alt="" /><h4>Google Play</h4></a>
+                        <a className='flex flex-row items-center shadow-lg border gap-2 font-bold px-4 py-2 mb-4 mx-2 rounded-sm' href="https://play.google.com/" target='blank'> <img src={playStore} alt="" /><h4>Google Play</h4></a>
 
-                        <a className='flex flex-row items-center shadow gap-2 border px-4 py-2 mb-4 mx-2 rounded-sm' href="https://www.apple.com/app-store/" target='blank'> <img src={appStore} alt="" />App Store</a>
+                        <a className='flex flex-row items-center shadow-lg border gap-2 font-bold px-4 py-2 mb-4 mx-2 rounded-sm' href="https://www.apple.com/app-store/" target='blank'> <img src={appStore} alt="" />App Store</a>
 
                     </div>
                     <img src={bannerimg} alt="" />

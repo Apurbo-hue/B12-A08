@@ -4,9 +4,9 @@ import ratingsIcon from './../../images/icon-ratings.png'
 import { Link } from 'react-router';
 const AppsCard = ({ apps }) => {
    
-    const { image, title, description, ratingAvg, downloads } = apps;
+    const { id, image, title, description, ratingAvg, downloads } = apps;
     return (
-     <Link to="/appDetails">
+     <Link to={`appDetails/${id}`}>
         <div className="card bg-base-100 w-96 shadow-lg  border">
             <figure className='bg-white m-4'>
                 <img

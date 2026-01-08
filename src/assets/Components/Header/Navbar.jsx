@@ -9,12 +9,12 @@ const Navbar = () => {
         <>
 
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/allApps">Apps</Link></li>
-            <li><a>Installation</a></li>
+            <li><Link to="allApps">Apps</Link></li>
+            <li><Link to="installations">Installation</Link></li>
 
         </>
     return (
-<div className="navbar bg-base-100 shadow-sm">
+<div className="navbar shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
