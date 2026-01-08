@@ -90,21 +90,21 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-    "title": "Amazon Shopping",
-    "companyName": "Amazon Inc.",
-    "id": 6,
-    "description": "Online shopping with fast delivery.",
-    "size": 85,
-    "reviews": 760000,
-    "ratingAvg": 4.3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 10,
+    "description": "Professional networking platform.",
+    "size": 50,
+    "reviews": 480000,
+    "ratingAvg": 4.2,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 90000 },
-      { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 150000 },
-      { "name": "4 star", "count": 220000 },
-      { "name": "5 star", "count": 230000 }
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 155000 }
     ]
   },
   {
@@ -159,60 +159,6 @@
       { "name": "3 star", "count": 160000 },
       { "name": "4 star", "count": 120000 },
       { "name": "5 star", "count": 70000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
-    "id": 10,
-    "description": "Professional networking platform.",
-    "size": 50,
-    "reviews": 480000,
-    "ratingAvg": 4.2,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 35000 },
-      { "name": "3 star", "count": 90000 },
-      { "name": "4 star", "count": 160000 },
-      { "name": "5 star", "count": 155000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg",
-    "title": "Dropbox",
-    "companyName": "Dropbox Inc.",
-    "id": 11,
-    "description": "Cloud storage and file sharing.",
-    "size": 48,
-    "reviews": 350000,
-    "ratingAvg": 4.3,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 18000 },
-      { "name": "3 star", "count": 60000 },
-      { "name": "4 star", "count": 120000 },
-      { "name": "5 star", "count": 132000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Acrobat_DC_logo_2020.svg",
-    "title": "Adobe Acrobat Reader",
-    "companyName": "Adobe Inc.",
-    "id": 12,
-    "description": "PDF viewing and editing tool.",
-    "size": 65,
-    "reviews": 420000,
-    "ratingAvg": 4.0,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 55000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 110000 },
-      { "name": "5 star", "count": 85000 }
     ]
   }
 ]
