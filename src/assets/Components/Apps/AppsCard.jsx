@@ -7,10 +7,10 @@ const AppsCard = ({ apps }) => {
     const { id, image, title, description, ratingAvg, downloads } = apps;
     return (
      <Link to={`appDetails/${id}`}>
-        <div className="card bg-base-100 w-96 shadow-lg  border">
+        <div className="card bg-base-100 w-96 sm:w-full h-full shadow-lg  border">
             <figure className='bg-white m-4'>
                 <img
-                    className='w-50 h-50'
+                    className='w-50 h-50 object-contain'
                     src={image}
                     alt="failed to load" />
             </figure>

@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import downloadIcon from './../../images/icon-downloads.png'
 import rateIcon from './../../images/icon-ratings.png'
 import reviewIcon from './../../images/icon-review.png'
 import { useLoaderData, useNavigate, useParams } from 'react-router';
 import Chart from '../BarCharts/Chart';
+import { getApps, setApps } from '../handleInstall';
+
+
 
 
 
@@ -11,16 +14,26 @@ const AppDetails = () => {
     const navigate = useNavigate();
     const { id } = useParams();
     const datas = useLoaderData();
-    console.log(datas);
-   
+
+    const [insApps, setInsApps] = useState([])
+
+ useEffect(
+        ()=>{
+            const apps = getApps();
+              setInsApps(apps)
+        },[]
+    )
 
 
     const app = datas.find(data => data.id === parseInt(id))
-    console.log(app)
-    const { title, companyName, image, downloads, description, ratingAvg,ratings, reviews, size, } = app
+
+    const { title, companyName, image, downloads, description, ratingAvg, ratings, reviews, size } = app
     return (
-        <div>
+        <div className='px-8'>
+
             <div className='flex max-sm:flex-col gap-10 jusify-between items-center p-8 border-b'>
+
+
                 <div>
                     <img className='h-60' src={image} alt="" />
                 </div>
@@ -37,7 +50,11 @@ const AppDetails = () => {
                         <div><img src={reviewIcon} alt="" />Reviews: {reviews}</div>
 
                     </div>
-                    <button className='btn bg-[#00d390]'>Install Now ({size}MB)
+                    <button onClick={() => { setApps(id) }} disabled={insApps.includes(id)} className={`btn bg-[#00d390] ${insApps.includes(id)
+                            ? ""
+                            : ""
+                        }`}
+                    > {insApps.includes(id) ? `Installed` : `Install Now (${size}MB)`}
 
                     </button>
                 </div>
@@ -54,8 +71,8 @@ const AppDetails = () => {
                 <button className='btn  bg-linear-to-r from-[#6d36e6] to-[#995df0]' onClick={() => { navigate(-1) }}>go back</button>
             </div>
         </div>
-        
-        
+
+
     );
 };
 
