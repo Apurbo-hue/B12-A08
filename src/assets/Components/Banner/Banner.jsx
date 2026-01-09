@@ -24,7 +24,7 @@ const Banner = () => {
             
             <div className='flex flex-col justify-center items-center gap-2 py-10 bg-linear-to-r from-[#6d36e6] to-[#995df0] rounded-lg'>
                 <h1 className='text-4xl font-bold text-center'>Trusted By Millions, Built For You</h1>
-                <div className='flex gap-6 text-center'>
+                <div className='flex flex-col sm:flex-row gap-6 text-center'>
                     <div>
                         <p>Total Downloads</p>
                         <h1 className='text-4xl font-extrabold'>29.6M</h1>

@@ -38,14 +38,13 @@ const Installations = () => {
         <div className='text-center p-8'>
             <h1 className='text-5xl font-bold mb-4'>Your Installed Apps</h1>
             <p>Explore All Trending Apps on the Market developed by us</p>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <h1>Installed Apps({installedApps.length})</h1>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="btn m-1">Sort By (Downloads) : {sortBy}</div>
                     <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                         <li onClick={()=>handleSort('ascending')}><a>Low-High</a></li>
-                        <li onClick={()=>handleSort('descending')}><a>High-Low</a></li>
-                        
+                        <li onClick={()=>handleSort('descending')}><a>High-Low</a></li>                      
                     </ul>
                 </div>
             </div>
