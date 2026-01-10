@@ -9,7 +9,7 @@ const AllApps = () => {
 
 
     const filteredApps = allData.filter(app => app.title.toLowerCase().includes(search.toLowerCase()))
-    console.log(filteredApps)
+   
 
     return (
         <div>
@@ -18,7 +18,7 @@ const AllApps = () => {
                 <p>Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className='flex justify-between  mb-4'>
-                <h1 className='p-4'>({allData.length}) Apps found</h1>
+                <h1 className='p-4'>({filteredApps.length}) Apps found</h1>
                 <input type="text" placeholder='Search Apps' className='pl-4 pr-12 border rounded-lg'
                     value={search}
                     onChange={(e) => setSearch(e.target.value)} />
